@@ -5,7 +5,7 @@
     <div class="button-list">
         @foreach (var group in Model)
         {
-            <button class="menu-button" onclick="location.href='@Url.Action("Exams", "Group", new { groupId = group.Id })'">
+            <button class="menu-button" onclick="location.href='@Url.Action("examen", "grupa", new { groupId = group.Id })'">
                 @group.Name
             </button>
         }

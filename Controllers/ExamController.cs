@@ -12,7 +12,7 @@ public class ExamController : Controller
         _examRepository = examRepository;
     }
 
-    [HttpGet("Exam/Calendar/{groupId}")]
+    [HttpGet("examen/calendar/{groupId}")]
     public async Task<IActionResult> Calendar(int groupId)
     {
         var exams = await _examRepository.GetExamsByGroupAsync(groupId);

@@ -24,7 +24,7 @@ public class FacultyController : Controller
         return View(faculties);
     }
 
-    [Route("Faculty/Specializations/{facultyId}")]
+    [Route("facultate/specializare/{facultyId}")]
     public async Task<IActionResult> Specializations(int facultyId)
     {
         var faculty = await _facultyRepository.GetByIdAsync(facultyId);
@@ -40,7 +40,7 @@ public class FacultyController : Controller
         return View(viewModel);
     }
 
-    [HttpGet("Faculty/GetGroupsBySpecialization/{specializationId}")]
+    [HttpGet("facultate/GetGroupsBySpecialization/{specializationId}")]
     public async Task<IActionResult> GetGroupsBySpecialization(int specializationId)
     {
         var groups = await _groupRepository.GetGroupsBySpecializationAsync(specializationId);

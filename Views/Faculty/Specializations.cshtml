@@ -35,7 +35,7 @@
                 const specializationId = this.getAttribute("data-id");
 
                 // Make an AJAX call to fetch groups
-                fetch(`/Faculty/GetGroupsBySpecialization/${specializationId}`)
+                fetch(`/facultate/GetGroupsBySpecialization/${specializationId}`)
                     .then(response => {
                         if (!response.ok) {
                             throw new Error("Network response was not ok");

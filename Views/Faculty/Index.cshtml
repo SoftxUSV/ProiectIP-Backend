@@ -5,7 +5,7 @@
     <div class="button-list">
         @foreach (var faculty in Model)
         {
-            <a class="menu-button" asp-controller="Faculty" asp-action="Specializations" asp-route-id="@faculty.Id">
+            <a class="menu-button" asp-controller="facultate" asp-action="specializare" asp-route-id="@faculty.Id">
                 @faculty.Name
             </a>
         }
