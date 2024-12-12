@@ -19,5 +19,11 @@ namespace ProiectIP.Models
         public int GroupId { get; set; }
 
         public GroupModel Group { get; set; }
+
+        [Required]
+        public int Duration { get; set; }
+
+        [StringLength(200)]
+        public string Location {  get; set; }
     }
 }

@@ -11,6 +11,13 @@ namespace ProiectIP.Models
         [StringLength(100)]
         public string Name { get; set; }
 
+        [Required]
+        [StringLength(200)]
+        public string Description { get; set; }
+
+        [Required]
+        public DateTime EstablishedDate { get; set; }
+
         public ICollection<SpecializationModel> Specializations { get; set; }
     }
 }

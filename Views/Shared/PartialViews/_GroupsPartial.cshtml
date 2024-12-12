@@ -1,0 +1,19 @@
+﻿@model IEnumerable<ProiectIP.Models.GroupModel>
+
+@if (!Model.Any())
+{
+    <p>No groups available for this specialization.</p>
+}
+else
+{
+    <ul>
+        @foreach (var group in Model)
+        {
+            <li>
+                <a asp-controller="Exam" asp-action="Calendar" asp-route-groupId="@group.Id">
+                    @group.Name
+                </a>
+            </li>
+        }
+    </ul>
+}
