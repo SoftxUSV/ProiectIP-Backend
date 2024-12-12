@@ -16,6 +16,11 @@ namespace ProiectIP.Models
 
         public SpecializationModel Specialization { get; set; }
 
+        public int YearOfStudy { get; set; }
+
+        [Range(5, 100)]
+        public int Capacity { get; set; }
+
         public ICollection<ExamModel> Exams { get; set; }
     }
 }

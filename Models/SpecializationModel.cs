@@ -18,5 +18,8 @@ namespace ProiectIP.Models
         public FacultyModel Faculty { get; set; }
 
         public ICollection<GroupModel> Groups { get; set; }
+
+        [StringLength(500)]
+        public string Overview { get; set; }
     }
 }

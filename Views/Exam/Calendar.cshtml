@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ProiectIP.Models.ExamModel>
+
+<div>
+    <h1>Exam Calendar</h1>
+    <h2>Exams for Group</h2>
+
+    @if (!Model.Any())
+    {
+        <p>No exams are scheduled for this group.</p>
+    }
+    else
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>Exam Name</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var exam in Model)
+                {
+                    <tr>
+                        <td>@exam.Name</td>
+                        <td>@exam.ScheduledDate.ToShortDateString()</td>
+                        <td>@exam.ScheduledDate.ToShortTimeString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+</style>

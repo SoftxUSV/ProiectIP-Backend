@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ProiectIP.Models.GroupModel>
+
+<div class="menu-container">
+    <h1>Groups in @ViewBag.FacultyName</h1>
+    <div class="button-list">
+        @foreach (var group in Model)
+        {
+            <button class="menu-button" onclick="location.href='@Url.Action("Exams", "Group", new { groupId = group.Id })'">
+                @group.Name
+            </button>
+        }
+    </div>
+    <button class="menu-button" onclick="location.href='@Url.Action("Index", "Faculty")'">Back to Faculties</button>
+</div>

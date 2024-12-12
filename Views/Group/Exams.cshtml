@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ProiectIP.Models.ExamModel>
+
+<div class="menu-container">
+    <h1>Exams for Group: @ViewBag.GroupName</h1>
+    <div class="button-list">
+        @foreach (var exam in Model)
+        {
+            <button class="menu-button" onclick="location.href='@Url.Action("Details", "Exam", new { examId = exam.Id })'">
+                @exam.Name - @exam.ScheduledDate.ToString("yyyy-MM-dd")
+            </button>
+        }
+    </div>
+    <button class="menu-button" onclick="location.href='@Url.Action("Groups", "Faculty", new { facultyId = ViewBag.FacultyId })'">Back to Groups</button>
+</div>

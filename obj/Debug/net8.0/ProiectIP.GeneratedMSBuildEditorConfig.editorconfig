@@ -26,12 +26,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = G:\Proiect IP\ProiectIP-Backend
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/Proiect IP/ProiectIP-Backend/Views/Exam/Calendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxDYWxlbmRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Proiect IP/ProiectIP-Backend/Views/Exam/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Proiect IP/ProiectIP-Backend/Views/Faculty/Groups.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxHcm91cHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Proiect IP/ProiectIP-Backend/Views/Faculty/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Proiect IP/ProiectIP-Backend/Views/Faculty/Specializations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxTcGVjaWFsaXphdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Proiect IP/ProiectIP-Backend/Views/Group/Exams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBcRXhhbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/Proiect IP/ProiectIP-Backend/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/Proiect IP/ProiectIP-Backend/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Proiect IP/ProiectIP-Backend/Views/Shared/PartialViews/_GroupsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfR3JvdXBzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/Proiect IP/ProiectIP-Backend/Views/Shared/_ValidationScriptsPartial.cshtml]
