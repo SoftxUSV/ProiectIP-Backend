@@ -30,8 +30,16 @@ namespace ProiectIP.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Duration")
+                        .HasColumnType("int");
+
                     b.Property<int>("GroupId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -46,6 +54,26 @@ namespace ProiectIP.Migrations
                     b.HasIndex("GroupId");
 
                     b.ToTable("Exams");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Duration = 0,
+                            GroupId = 1,
+                            Location = "C202",
+                            Name = "Proiectarea Bazelor de Date",
+                            ScheduledDate = new DateTime(2024, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Duration = 0,
+                            GroupId = 2,
+                            Location = "E101",
+                            Name = "Matematici Speciale",
+                            ScheduledDate = new DateTime(2024, 12, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
             modelBuilder.Entity("ProiectIP.Models.FacultyModel", b =>
@@ -56,6 +84,14 @@ namespace ProiectIP.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<DateTime>("EstablishedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -64,6 +100,22 @@ namespace ProiectIP.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Faculties");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Facultatea de Inginerie Electrica si Stiinta Calculatoarelor",
+                            EstablishedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "FIESC"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Facultatea de Economie, Administrație și Afaceri",
+                            EstablishedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "FEAA"
+                        });
                 });
 
             modelBuilder.Entity("ProiectIP.Models.GroupModel", b =>
@@ -74,6 +126,9 @@ namespace ProiectIP.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Capacity")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -82,11 +137,40 @@ namespace ProiectIP.Migrations
                     b.Property<int>("SpecializationId")
                         .HasColumnType("int");
 
+                    b.Property<int>("YearOfStudy")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("SpecializationId");
 
                     b.ToTable("Groups");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Capacity = 0,
+                            Name = "3112b",
+                            SpecializationId = 1,
+                            YearOfStudy = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Capacity = 0,
+                            Name = "4112a",
+                            SpecializationId = 2,
+                            YearOfStudy = 0
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Capacity = 0,
+                            Name = "5112a",
+                            SpecializationId = 3,
+                            YearOfStudy = 0
+                        });
                 });
 
             modelBuilder.Entity("ProiectIP.Models.SpecializationModel", b =>
@@ -105,11 +189,39 @@ namespace ProiectIP.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<string>("Overview")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("FacultyId");
 
                     b.ToTable("Specializations");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            FacultyId = 1,
+                            Name = "Calculatoare",
+                            Overview = ""
+                        },
+                        new
+                        {
+                            Id = 2,
+                            FacultyId = 1,
+                            Name = "Automatica",
+                            Overview = ""
+                        },
+                        new
+                        {
+                            Id = 3,
+                            FacultyId = 2,
+                            Name = "Contabilitate",
+                            Overview = ""
+                        });
                 });
 
             modelBuilder.Entity("ProiectIP.Models.UserModel", b =>
@@ -120,10 +232,23 @@ namespace ProiectIP.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
                     b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
 
                     b.Property<string>("Role")
                         .IsRequired()

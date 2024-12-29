@@ -18,5 +18,14 @@ namespace ProiectIP.Models
         [Required]
         [StringLength(20)]
         public string Role { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string Email { get; set; } // Added: User's email address
+
+        [StringLength(15)]
+        public string PhoneNumber { get; set; } // Added: User's phone number
+
+        public DateTime DateCreated { get; set; } // Added: Account creation date
     }
 }

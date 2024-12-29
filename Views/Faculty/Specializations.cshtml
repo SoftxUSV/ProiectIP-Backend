@@ -1,0 +1,90 @@
+﻿@model FacultySpecializationsViewModel
+
+<div class="faculty-header">
+    <h2>@Model.Faculty.Name</h2>
+</div>
+
+<div class="specialization-list">
+    <h3>Select Specialization:</h3>
+    <div class="specialization-buttons">
+        @foreach (var specialization in Model.Specializations)
+        {
+            <li>
+                <!-- Button triggers the AJAX call -->
+                <button class="specialization-button" data-id="@specialization.Id">
+                    @specialization.Name
+                </button>
+            </li>
+        }
+    </div>
+</div>
+
+<div id="groups-container">
+    <h2>Groups</h2>
+    <div id="groups-list">
+        <!-- Groups will be dynamically loaded here -->
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Attach click event to all specialization buttons
+        const buttons = document.querySelectorAll(".specialization-button");
+        buttons.forEach(button => {
+            button.addEventListener("click", function () {
+                const specializationId = this.getAttribute("data-id");
+
+                // Make an AJAX call to fetch groups
+                fetch(`/facultate/GetGroupsBySpecialization/${specializationId}`)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error("Network response was not ok");
+                        }
+                        return response.text();
+                    })
+                    .then(html => {
+                        // Insert the returned HTML into the groups container
+                        const groupsContainer = document.getElementById("groups-list");
+                        groupsContainer.innerHTML = html;
+                    })
+                    .catch(error => {
+                        console.error("Error fetching groups:", error);
+                    });
+            });
+        });
+    });
+</script>
+
+<style>
+    .faculty-header {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .specialization-list {
+        margin-top: 20px;
+    }
+
+    .specialization-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .btn-specialization {
+        width: 200px;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        line-height: 50px;
+        background-color: #004085;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+        .btn-specialization:hover {
+            background-color: #0056b3;
+        }
+</style>

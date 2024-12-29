@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers",
+    "\\Models",
+    "\\Models\\Repositories",
+    "\\Views",
+    "\\Views\\Faculty"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
