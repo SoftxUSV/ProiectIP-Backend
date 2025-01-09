@@ -2,6 +2,7 @@
 using ProiectIP.Models;
 using ProiectIP.Models.Repositories;
 
+[ApiController]
 public class FacultyController : Controller
 {
     private const string GroupsPartialView = "PartialViews/_GroupsPartial";
@@ -18,7 +19,7 @@ public class FacultyController : Controller
         _specializationRepository = specializationRepository;
     }
 
-    [Route("facultate")]
+    [Route("api/facultate")]
     public async Task<IActionResult> Index()
     {
         var faculties = await _facultyRepository.GetAllAsync(f => f.Specializations);

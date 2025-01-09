@@ -3,6 +3,7 @@ using ProiectIP.Models;
 using ProiectIP.Models.Repositories;
 using System.Linq;
 
+[ApiController]
 public class ExamController : Controller
 {
     private readonly IExamRepository _examRepository;
