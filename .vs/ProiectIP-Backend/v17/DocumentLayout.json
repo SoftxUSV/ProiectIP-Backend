@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "G:\\Proiect IP\\ProiectIP-Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\ExamController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ExamController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\FacultyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\FacultyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\ExamController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ExamController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\GroupController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\GroupController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IGroupRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\IGroupRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\SpecializationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\SpecializationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\GroupModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\GroupModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\ExamModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\ExamModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\FacultyModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\FacultyModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\UserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\UserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\FacultyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\FacultyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\ISpecializationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\ISpecializationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\IRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\Repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\Repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\SpecializationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,44 +75,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\IExamRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\FacultyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\FacultyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IFacultyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\IFacultyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\ISpecializationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\ISpecializationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\Repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\Repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\IRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IGroupRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Repositories\\IGroupRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\ExamModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\ExamModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\GroupModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\GroupModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\FacultyModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\FacultyModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Proiect IP\\ProiectIP-Backend\\Models\\ExamSchedulingDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,72 +98,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "Controllers\\GroupController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T19:57:06.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T19:57:05.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T09:24:32.7Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExamController.cs",
-              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\ExamController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ExamController.cs",
-              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\ExamController.cs",
-              "RelativeToolTip": "Controllers\\ExamController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T14:00:21.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExamRepository.cs",
-              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\ExamRepository.cs",
-              "RelativeDocumentMoniker": "Models\\Repositories\\ExamRepository.cs",
-              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\ExamRepository.cs",
-              "RelativeToolTip": "Models\\Repositories\\ExamRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T20:15:47.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FacultyController.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\FacultyController.cs",
               "RelativeDocumentMoniker": "Controllers\\FacultyController.cs",
               "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\FacultyController.cs",
               "RelativeToolTip": "Controllers\\FacultyController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T20:15:00.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GroupRepository.cs",
-              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\GroupRepository.cs",
-              "RelativeDocumentMoniker": "Models\\Repositories\\GroupRepository.cs",
-              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\GroupRepository.cs",
-              "RelativeToolTip": "Models\\Repositories\\GroupRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T20:02:48.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IExamRepository.cs",
-              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IExamRepository.cs",
-              "RelativeDocumentMoniker": "Models\\Repositories\\IExamRepository.cs",
-              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IExamRepository.cs",
-              "RelativeToolTip": "Models\\Repositories\\IExamRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T20:02:44.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "IGroupRepository.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IGroupRepository.cs",
               "RelativeDocumentMoniker": "Models\\Repositories\\IGroupRepository.cs",
@@ -159,19 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SpecializationRepository.cs",
-              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\SpecializationRepository.cs",
-              "RelativeDocumentMoniker": "Models\\Repositories\\SpecializationRepository.cs",
-              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\SpecializationRepository.cs",
-              "RelativeToolTip": "Models\\Repositories\\SpecializationRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:39:38.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ISpecializationRepository.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\ISpecializationRepository.cs",
               "RelativeDocumentMoniker": "Models\\Repositories\\ISpecializationRepository.cs",
@@ -183,19 +181,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "FacultyRepository.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\FacultyRepository.cs",
               "RelativeDocumentMoniker": "Models\\Repositories\\FacultyRepository.cs",
               "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\FacultyRepository.cs",
               "RelativeToolTip": "Models\\Repositories\\FacultyRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T09:38:11.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "IFacultyRepository.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IFacultyRepository.cs",
               "RelativeDocumentMoniker": "Models\\Repositories\\IFacultyRepository.cs",
@@ -207,43 +205,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Repository.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "Models\\Repositories\\Repository.cs",
               "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\Repository.cs",
               "RelativeToolTip": "Models\\Repositories\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T09:37:31.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IRepository.cs",
-              "RelativeDocumentMoniker": "Models\\Repositories\\IRepository.cs",
-              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IRepository.cs",
-              "RelativeToolTip": "Models\\Repositories\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:37:14.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "GroupModel.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\GroupModel.cs",
               "RelativeDocumentMoniker": "Models\\GroupModel.cs",
               "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\GroupModel.cs",
               "RelativeToolTip": "Models\\GroupModel.cs",
-              "ViewState": "AQIAAAIAAACAZ2ZmZiYowBUAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T11:12:06.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
+              "Title": "ExamModel.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\ExamModel.cs",
+              "RelativeDocumentMoniker": "Models\\ExamModel.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\ExamModel.cs",
+              "RelativeToolTip": "Models\\ExamModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:10:18.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExamController.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "Controllers\\ExamController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T14:00:21.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpecializationModel.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\SpecializationModel.cs",
+              "RelativeDocumentMoniker": "Models\\SpecializationModel.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\SpecializationModel.cs",
+              "RelativeToolTip": "Models\\SpecializationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T09:35:31.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FacultyModel.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\FacultyModel.cs",
               "RelativeDocumentMoniker": "Models\\FacultyModel.cs",
@@ -255,7 +278,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SpecializationRepository.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\SpecializationRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\SpecializationRepository.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\SpecializationRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\SpecializationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:39:38.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IExamRepository.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IExamRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\IExamRepository.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IExamRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\IExamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:02:44.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\GroupRepository.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\GroupRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\GroupRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:02:48.229Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "ExamRepository.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\ExamRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\ExamRepository.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\ExamRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\ExamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:15:47.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\IRepository.cs",
+              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:37:14.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ExamSchedulingDbContext.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\ExamSchedulingDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ExamSchedulingDbContext.cs",
@@ -267,19 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ExamModel.cs",
-              "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\ExamModel.cs",
-              "RelativeDocumentMoniker": "Models\\ExamModel.cs",
-              "ToolTip": "G:\\Proiect IP\\ProiectIP-Backend\\Models\\ExamModel.cs",
-              "RelativeToolTip": "Models\\ExamModel.cs",
-              "ViewState": "AQIAAAcAAACAnJmZmdkowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:10:18.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -291,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "README.md",
               "DocumentMoniker": "G:\\Proiect IP\\ProiectIP-Backend\\README.md",
               "RelativeDocumentMoniker": "README.md",

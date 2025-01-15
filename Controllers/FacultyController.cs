@@ -19,8 +19,8 @@ public class FacultyController : Controller
         _specializationRepository = specializationRepository;
     }
 
-    [Route("api/facultate")]
-    public async Task<IActionResult> Index()
+    [Route("api/facultati")]
+    public async Task<IActionResult> Get()
     {
         var faculties = await _facultyRepository.GetAllAsync(f => f.Specializations);
         return Json(faculties);

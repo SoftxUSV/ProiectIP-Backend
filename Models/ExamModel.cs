@@ -18,7 +18,7 @@ namespace ProiectIP.Models
         [Required]
         public int GroupId { get; set; }
 
-        public GroupModel Group { get; set; }
+        public GroupModel? Group { get; set; }
 
         [Required]
         public int Duration { get; set; }

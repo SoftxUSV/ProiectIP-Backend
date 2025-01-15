@@ -36,6 +36,16 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path == "/")
+    {
+        context.Response.Redirect("/login");
+        return;
+    }
+    await next();
+});
+
 app.UseCors(MyAllowSpecificOrigins);
 
 // Configure the HTTP request pipeline.

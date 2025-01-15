@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers",
-    "\\Models",
-    "\\Models\\Repositories",
-    "\\Views",
     "\\Views\\Faculty"
   ],
-  "SelectedNode": "\\ProiectIP.sln",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
